@@ -1,11 +1,11 @@
 
-<%@include file="UserHeader.jsp" %>
+<%@include file="VisitorHeader.jsp" %>
+<!DOCTYPE html>
+<html>
 <head>
-<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<meta charset="ISO-8859-1">
+<title>Books Categories</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 <style>
 body{
 background-color:LightGray;
@@ -16,55 +16,55 @@ background-color:LightGray;
 <div class="container">
      <div class="row">
 <div class="col-md-4">
-      <a href="resources/images/capsicum1.jpg" class="thumbnail">
+      <a href="product" class="thumbnail">
         <img src="resources/images/capsicum1.jpg" alt="literature"  style="width:500px;height:220px">
       </a>
     </div>
     <div class="col-md-4">
-      <a href="resources/images/brinjal1.jpg" class="thumbnail">
+      <a href="product" class="thumbnail">
         <img src="resources/images/brinjal1.jpg" alt="literature"  style="width:500px;height:220px">
       </a>
     </div>
     
     <div class="col-md-4">
-      <a href="resources/images/buy1get3.jpg" class="thumbnail">
+      <a href="product" class="thumbnail">
         <img src="resources/images/buy1get3.jpg" alt="history"  style="width:500px;height:220px">
       </a>
     </div>
  <div class="col-md-4">
-      <a href="resources/images/pumlin.jpg" class="thumbnail">
+      <a href="product" class="thumbnail">
         <img src="resources/images/pumlin.jpg" alt="history"  style="width:500px;height:220px">
       </a>
     </div>
         
     <div class="col-md-4">
     
-      <a href="resources/images/buy1get5.jpg" class="thumbnail">
+      <a href="product" class="thumbnail">
         
         <img src="resources/images/buy1get5.jpg" alt="children"  style="width:500px;height:220px">
       </a>
     </div>
     <div class="col-md-4">
-      <a href="resources/images/greenmango.jpg" class="thumbnail">
+      <a href="product" class="thumbnail">
         
         <img src="resources/images/greenmango.jpg" alt="BIo"  style="width:500px;height:220px">
       </a>
     </div>
  <div class="col-md-4">
-      <a href="resources/images/sprite2.jpg" class="thumbnail">
+      <a href="product" class="thumbnail">
         
-        <img src="resources/images/sprite2.jpg" alt="BIo"  style="width:500px;height:220px">
+        <img src="resources/images/SPRITE3.jpg" alt="BIo"  style="width:500px;height:220px">
       </a>
     </div>
  <div class="col-md-4">
-      <a href="resources/images/carrot3.jpg" class="thumbnail">
+      <a href="product" class="thumbnail">
         
         <img src="resources/images/carrot3.jpg" alt="BIo"  style="width:500px;height:220px">
       </a>
     </div>
   <div class="row">
 <div class="col-md-4">
-      <a href="resources/images/frooti1.jpg" class="thumbnail">
+      <a href="product" class="thumbnail">
         <img src="resources/images/frooti1.jpg" alt="literature"  style="width:500px;height:220px">
       </a>
     </div>

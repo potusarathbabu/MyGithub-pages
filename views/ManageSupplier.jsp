@@ -1,4 +1,4 @@
-<%@include file="AdminHeader.jsp" %>
+<%@include file="VisitorHeader.jsp" %>
 
 <head>
 
@@ -13,7 +13,7 @@
 
 <style>
 body {
-    background-color:red;
+    background-color:LightSalmon;
 }
 </style>
 </head>

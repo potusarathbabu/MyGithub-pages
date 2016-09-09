@@ -1,4 +1,4 @@
-<%@include file="AdminHeader.jsp" %>
+<%@include file="VisitorHeader.jsp" %>
 
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
@@ -23,7 +23,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 <style>
 body {
-    background-color:grey;
+    background-color:LightSalmon;
 }
 </style>
 </head>
@@ -58,23 +58,34 @@ body {
                 </tr>     
                  
              	<tr>
-                     <td><form:label path="img"><h2 style="color:yellow">Image Upload:</form:label></td>
+                     <td><form:label path="Img"><h2 style="color:yellow">Image Upload:</form:label></td>
                      <td><form:input type="file" path="Img"  /></td>
-               </tr>       
+               </tr>  
+               <tr>
+				<td><form:label path="category"><h2 style="color:yellow">Category By:</form:label></td>
+				<td><form:select path="category.categoryname" items="${categoryList}" itemValue="categoryname" itemLabel="categoryname" /></td>
+				</tr>
+
+
+			<tr>
+			<td><form:label path="supplier"><h2 style="color:yellow">Supplied By:</form:label></td>
+			<td><form:select path="supplier.suppliername" items="${supplierList}" itemValue="suppliername" itemLabel="suppliername" /></td>
+			</tr>     
        
        				 </table>
        				<tr><td>
                 <h5 colspan="0" align="center" ><input type="submit" value="Add Product"></h5>
-                 <h5 colspan="0" align="center" ><input type="reset" value="Cancel"></h5>
-               
+             	<h5 colspan="0" align="center" ><input type="reset" value="Reset"></h5>
+             
+                
               </td></tr>
              
            
       
            
     </div>
-    <a href="Adminlogin"><h2 align="left"><h2 style="color:green">Back</a> 
+   
       </form:form>
     <br><br>
-   <%@include file="angularjs.jsp" %>
-	
+   
+	<%@include file="angularjs.jsp" %>

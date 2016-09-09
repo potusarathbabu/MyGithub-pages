@@ -54,6 +54,11 @@ body {
 <td><h2><font color="white">Password : </td>
 <td><form:input path="password" type="password"/><form:errors path="password" style="color:white"></form:errors></td>
 </tr>
+</tr>
+<tr>
+<td><h2><font color="white">Confirm Password : </td>
+<td><form:input path="confirmpassword" type="password"/><form:errors path="confirmpassword" style="color:white"></form:errors></td>
+</tr>
 
 <tr>
 <td><h2><font color="white">Mobile Number :</td>

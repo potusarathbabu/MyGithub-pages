@@ -1,3 +1,4 @@
+
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -93,6 +94,14 @@ body {
             <span ng-show="sortType == 'more' && sortReverse" class="fa fa-caret-up"></span>
           </a>
         </td>
+         <td>
+          <a href="#" ng-click="sortType = 'more'; sortReverse = !sortReverse">
+          Image
+            <span ng-show="sortType == 'more' && !sortReverse" class="fa fa-caret-down"></span>
+            <span ng-show="sortType == 'more' && sortReverse" class="fa fa-caret-up"></span>
+          </a>
+        </td>
+        
         </tr>
     </thead>
     
@@ -103,14 +112,14 @@ body {
            		<td>{{p1.quantity}}</td>
            		<td>{{p1.price}}</td>
            		<td>{{p1.more}}</td>
-       <td><a href="deleteproduct?id={{p1.id}}">Delete</a></td>
-             <td><a href="editproduct?id={{p1.id}}">Edit</a></td>     		
-           	
+           		<td>{{p1.image}}</td>
+ 
+       
       </tr>
     </tbody>
     
   </table>
-  
+  <center/><a href="ManageProduct"><h1 align="center"><h2><font color="white">Back</a></center>
 </div>
 
 

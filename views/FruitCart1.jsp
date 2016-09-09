@@ -1,13 +1,10 @@
-<%@include file="UserHeader.jsp" %>
+<%@include file="VisitorHeader.jsp" %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>FRIUTS & VEGETABLES</title>
+<title>Books Categories</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 <style>
 body {
     background-color: LightGray;
@@ -76,7 +73,7 @@ p {
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
-    </a>++
+    </a>
     <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
@@ -105,6 +102,14 @@ p {
     <a href="Prices" class="thumbnail">
       
         <img src="resources/images/prices.jpg" alt="2 kg Orange=RS.100" style="width:500px;height:150px">
+       
+      </a>
+    </div>
+     <div class="col-md-4">
+    <p><h5>MyCart</h5></p>
+    <a href="MyCart" class="thumbnail">
+      
+        <img src="resources/images/addcart.jpg" alt="2 kg Orange=RS.100" style="width:500px;height:150px">
        
       </a>
     </div>

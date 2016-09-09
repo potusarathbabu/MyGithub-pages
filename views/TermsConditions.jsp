@@ -28,16 +28,16 @@ body {
 </head>
 <body>
 <center> <h1 style="color:red">Terms & Conditions </h1></center><hr>
-<h3 style="color:black">
+<h5 style="color:black">
 Welcome to our SUPER MARKET. If you continue to browse and use this website, you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern SUPER MARKET's relationship with you in relation to this website.
  If you disagree with any part of these terms and conditions, please do not use ourSUPER MARKET.
 The term 'MANAGEMENT' or 'us' or 'we' refers to the owner of THE SUPER MARKET whose registered office is [SECUNDRABAD].
  Our company registration number is [S171106500091 & SECUNDRABAD]. The term 'you' refers to the user or viewer of our SUPER MARKET.
-</h3>
-<h4 style="color:black">
+</h5>
+<h5 style="color:black">
 The use of this website is subject to the following terms of use:
 
 The content of the pages of this website is for your general information and use only. It is subject to change without notice.
 This website uses cookies to monitor browsing preferences. If you do allow cookies to be used, the following personal information may be stored by us for use by third parties: [insert list of information].
 Neither we nor any third parties provide any warranty or guarantee as to the accuracy, timeliness, performance, completeness or suitability of the information and materials found or offered on this website for any particular purpose. You acknowledge that such information and materials may contain inaccuracies or errors and we expressly exclude liability for any such inaccuracies or errors to the fullest extent permitted by law.
-</h4>	
+</h5>	

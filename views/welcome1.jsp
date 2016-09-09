@@ -31,52 +31,48 @@ background-color:LightGray ;
     </div>
     
     <div class="col-md-4">
-      <a href="Vegetableshub.html" class="thumbnail">
+      <a href="Signin" class="thumbnail">
         <img src="resources/images/capsicum1.jpg" alt="history"  style="width:300px;height:120px">
 <center><p><h3>CAPSICUM</h3></p></center>
       </a>
     </div>
 <div class="col-md-4">
-      <a href="Drinkshub.html" class="thumbnail">
+      <a href="Signin" class="thumbnail">
         <img src="resources/images/drinks1.jpg" alt="history"  style="width:300px;height:120px">
 <center><p><h3>DRINKS</h3></p></center>
       </a>
     </div>
     <div class="col-md-4">
-      <a href="Drinkshub.html" class="thumbnail">
+      <a href="Signin" class="thumbnail">
         <img src="resources/images/specialoffer.png" alt="history"  style="width:300px;height:120px">
 <center><p><h3>SPECIAL OFFERS</h3></p></center>
       </a>
     </div>
     <div class="col-md-4">
-      <a href="Drinkshub.html" class="thumbnail">
+      <a href="Signin" class="thumbnail">
         <img src="resources/images/get1.png" alt="history"  style="width:300px;height:120px">
 <center><p><h3>BUY 1 GET 1</h3></p></center>
       </a>
     </div>
     <div class="col-md-4">
-      <a href="Drinkshub.html" class="thumbnail">
+      <a href="Signin" class="thumbnail">
         <img src="resources/images/freedelivary.jpg" alt="history"  style="width:300px;height:120px">
 <center><p><h3>FREE DELIVARY</h3></p></center>
       </a>
     </div>
     <div class="col-md-4">
-      <a href="Drinkshub.html" class="thumbnail">
+      <a href="Signin" class="thumbnail">
         <img src="resources/images/like.jpg" alt="history"  style="width:300px;height:120px">
 <center><p><h3>LIKE</h3></p></center>
       </a>
     </div>
     <div class="col-md-4">
-      <a href="Drinkshub.html" class="thumbnail">
+      <a href="Signin" class="thumbnail">
         <img src="resources/images/bestoffer.jpg" alt="history"  style="width:300px;height:120px">
 <center><p><h3>BEST OFFER</h3></p></center>
       </a>
     </div>
-    
-
-        
-   
-           </a>
+   </a>
     </div>
   </div>
 </div>
