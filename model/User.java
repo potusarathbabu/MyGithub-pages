@@ -1,4 +1,4 @@
-package com.psb.model;
+package psb.colloboration.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -10,85 +10,113 @@ import javax.persistence.Transient;
 
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.stereotype.Component;
+import org.springframework.web.multipart.MultipartFile;
 
 @Entity
 @Table
 @Component
 public class User {
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	
-	private int id;
-	@NotEmpty(message="first name cannot be empty")
-	private String  firstname;
-	@NotEmpty(message="last name cannot be empty")
-	private String lastname;
-	@NotEmpty(message="mobile number cannot be empty")
-	private String mobilenumber;
-	@NotEmpty(message="username cannot be empty")
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int userid;
+	@NotEmpty(message = "User name cannot be empty")
 	private String username;
-	@NotEmpty(message="password cannot be empty")
+	@NotEmpty(message = "Password cannot be empty")
 	private String password;
 	@Transient
-	@NotEmpty(message="confirmpassword cannot be empty")
+	//@NotEmpty(message = "Conform Password cannot be empty")
 	private String confirmpassword;
-	
-	
-	
-	
-	public void setConfirmpassword(String confirmpassword) {
-		this.confirmpassword = confirmpassword;
+
+	@NotEmpty(message = "Email Id cannot be empty")
+	private String emailid;
+	@NotEmpty(message = "Location cannot be empty")
+	private String location;
+	@NotEmpty(message = "Role cannot be empty")
+	private String role;
+	@Transient
+	private MultipartFile img;
+	@Column(name = "enabled")
+	private boolean enabled;
+	private String authority;
+
+	public String getAuthority() {
+		return authority;
 	}
-	@Column(name="enabled")
-	private boolean isEnabled;
-	
-	public boolean isEnabled() {
-		return isEnabled;
+
+	public void setAuthority(String authority) {
+		this.authority = authority;
 	}
-	public void setEnabled(boolean isEnabled) {
-		this.isEnabled = isEnabled;
+
+	public int getUserid() {
+		return userid;
 	}
-	public int getId() {
-		return id;
+
+	public void setUserid(int userid) {
+		this.userid = userid;
 	}
-	public void setId(int id) {
-		this.id = id;
+
+	public String getUsername() {
+		return username;
 	}
-	public String getFirstname() {
-		return firstname;
+
+	public void setUsername(String username) {
+		this.username = username;
 	}
-	public void setFirstname(String firstname) {
-		this.firstname = firstname;
+
+	public String getPassword() {
+		return password;
 	}
-	public String getLastname() {
-		return lastname;
-	}
-	public void setLastname(String lastname) {
-		this.lastname = lastname;
-	}
-	public String getMobilenumber() {
-		return mobilenumber;
-	}
-	public void setMobilenumber(String mobilenumber) {
-		this.mobilenumber = mobilenumber;
+
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
 	public String getConfirmpassword() {
 		return confirmpassword;
 	}
-	public String getUsername() {
-		return username;
-	}
-	public void setUsername(String username) {
-		this.username = username;
-	}
-	public String getPassword() {
-		return password;
-	}
-	public void setPassword(String password) {
-		this.password = password;
+
+	public void setConfirmpassword(String confirmpassword) {
+		this.confirmpassword = confirmpassword;
 	}
 
-	
-	
+	public String getEmailid() {
+		return emailid;
+	}
+
+	public void setEmailid(String emailid) {
+		this.emailid = emailid;
+	}
+
+	public String getLocation() {
+		return location;
+	}
+
+	public void setLocation(String location) {
+		this.location = location;
+	}
+
+	public String getRole() {
+		return role;
+	}
+
+	public void setRole(String role) {
+		this.role = role;
+	}
+
+	public MultipartFile getImg() {
+		return img;
+	}
+
+	public void setImg(MultipartFile img) {
+		this.img = img;
+	}
+
+	public boolean isEnabled() {
+		return enabled;
+	}
+
+	public void setEnabled(boolean enabled) {
+		this.enabled = enabled;
+	}
+
 }

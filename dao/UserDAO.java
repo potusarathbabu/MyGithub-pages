@@ -1,24 +1,21 @@
-package com.psb.dao;
+package psb.colloboration.dao;
 
 import java.util.List;
 
-
-
-import com.psb.model.User;
-
+import psb.colloboration.model.User;
 
 public interface UserDAO {
-	
-	public List<User> list();
-	
-	public void saveOrUpdate(User user);
-	
-	public User getUserById(int id);
-	
-	public User getUserByName(String name);
-	
-	public void delete(int id);
 
-	public boolean login(String user,Boolean isAdmin, String pass);
+	public List<User> list();
+
+	public User get(int userid);
+
+	public void saveOrUpdate(User user);
+
+	public void delete(int d);
+
+	public User getusername(String username);
+
+	public boolean isvaliduser(String username, String pass, boolean isAdmin);
 
 }

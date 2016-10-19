@@ -1,4 +1,4 @@
-<%@include file="VisitorHeader.jsp" %>
+<%@include file="Header.jsp" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <html lang="en">
@@ -22,14 +22,14 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <style>
 body {
-    background-color:ligthgrey;
+    background-color:#98A4DD;
 }
 </style>
 </head>
 <body>
 <center> <h1 style="color:red">Terms & Conditions </h1></center><hr>
 <h5 style="color:black">
-Welcome to our SUPER MARKET. If you continue to browse and use this website, you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern SUPER MARKET's relationship with you in relation to this website.
+Welcome to our Chat Projects. If you continue to browse and use this website, you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern SUPER MARKET's relationship with you in relation to this website.
  If you disagree with any part of these terms and conditions, please do not use ourSUPER MARKET.
 The term 'MANAGEMENT' or 'us' or 'we' refers to the owner of THE SUPER MARKET whose registered office is [SECUNDRABAD].
  Our company registration number is [S171106500091 & SECUNDRABAD]. The term 'you' refers to the user or viewer of our SUPER MARKET.
